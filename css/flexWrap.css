@@ -1,0 +1,26 @@
+body {
+    background-color: #ff9d76;
+}
+
+.flex-container {
+    flex-direction: row;
+    width: 500px;
+}
+.nowrap
+{
+    flex-wrap: nowrap;
+}
+.wrap
+{
+    flex-wrap: wrap;
+}
+.wrap-reverse
+{
+    flex-wrap: wrap-reverse;
+}
+.column-wrap-reverse
+{
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    height: 400px;
+}
